@@ -1,0 +1,55 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="A!{JAyNx2/tc;o2^j(gL" x="956" y="-99"></block><block type="device_button_event" id="p9n;TSj_v9(=c:IJNc]*" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="CL$J1zKjgeym=0PnFShc"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="mS/BJFAyJqjD{b7V5V5%"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="*^a?gJ33UO;:`8h^ff])"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="robotbit_motor_run" id="XH;nqPh=0D3BJ@$sl,ph"><field name="index">robotbit.Motors.M2A</field><value name="speed"><shadow type="math_number_minmax" id="UX1lh(D.sF+!YutJJ8Mt"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="robotbit_motor_run" id="Zr:zuPh.8HECZELK#C)%"><field name="index">robotbit.Motors.M2B</field><value name="speed"><shadow type="math_number_minmax" id="S?!j;I@{NY6CFUaby9?G"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="device_pause" id="Ui#g|_y{i*)otZ`6noeU"><value name="pause"><shadow type="timePicker" id="m0k/5^:E{v9o2y,qtWg$"><field name="ms">500</field></shadow></value><next><block type="robotbit_motor_run" id="Z/;OgJTN*tIn2=e$%-%u"><field name="index">robotbit.Motors.M2B</field><value name="speed"><shadow type="math_number_minmax" id="?{i8~R=*iOl,,SLrm-oU"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">63</field></shadow></value><next><block type="robotbit_motor_run" id="w;/t?V*Z|9`H:eF!bnMA"><field name="index">robotbit.Motors.M2A</field><value name="speed"><shadow type="math_number_minmax" id="%Mf`!);.jbt0:^#Lq9TY"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">63</field></shadow></value><next><block type="device_pause" id="n:Z.;{U3C23tJKpg{8]X"><value name="pause"><shadow type="timePicker" id="(bzCPHTHom2]4*N*|;]X"><field name="ms">500</field></shadow></value><next><block type="robotbit_motor_run" id="x}IZ0.*G7iC4en7MAaPd"><field name="index">robotbit.Motors.M2B</field><value name="speed"><shadow type="math_number_minmax" id="m*lyZv;tqEb]ZTU(;~/:"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">158</field></shadow></value><next><block type="robotbit_motor_run" id="v:Sn!u`5hv?mza+bnQt."><field name="index">robotbit.Motors.M2A</field><value name="speed"><shadow type="math_number_minmax" id="S9E+Vnvbh(,oK,Qy)YO1"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">158</field></shadow></value><next><block type="device_pause" id="4~{2hhgI*:)AEDs(M}#{"><value name="pause"><shadow type="timePicker" id="LT+sPpFzKLw1jqj5enJ+"><field name="ms">500</field></shadow></value><next><block type="robotbit_motor_run" id="~3tZ.O}po]wjf#X;$$$E"><field name="index">robotbit.Motors.M2B</field><value name="speed"><shadow type="math_number_minmax" id="u9/N)rr]OrO_yk,93(5%"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="robotbit_motor_run" id="g15t9%8,h%fax9dgJ]#u"><field name="index">robotbit.Motors.M2A</field><value name="speed"><shadow type="math_number_minmax" id="}wt@HkWg1g1Kznd+|YLr"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="iX%7*#[wr*4$DiI=y**w" x="363" y="-12"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="@0BeyOR.@bXX.l0D/egl"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="A5J9/KtX:Y/R#si^W-sM"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id=")/r^0B+Wf|Ls5,mvFf*7"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="robotbit_motor_run" id="u`:DfTbSV|FV-0Fi1PNq"><field name="index">robotbit.Motors.M2B</field><value name="speed"><shadow type="math_number_minmax" id="!0Zbw`B6RM#nWH[Ik,]Q"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="robotbit_motor_run" id="iMK0dYalsnsnv~W=aOH5"><field name="index">robotbit.Motors.M2A</field><value name="speed"><shadow type="math_number_minmax" id="XZ3KAor+m_yKeIa6oe6`"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><next><block type="device_pause" id="?}t9imD+w;)_lF{dR-_7"><value name="pause"><shadow type="timePicker" id="i5-1s!{kfz0u]G2D7Xf3"><field name="ms">500</field></shadow></value><next><block type="robotbit_motor_run" id="?lP-abyur=YC^$`A7go%"><field name="index">robotbit.Motors.M2B</field><value name="speed"><shadow type="math_number_minmax" id="co?0Oe?~qx1:]~6[.Vs$"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">158</field></shadow></value><next><block type="robotbit_motor_run" id="68UbYHn(FPY@Kqy`_!ZH"><field name="index">robotbit.Motors.M2A</field><value name="speed"><shadow type="math_number_minmax" id="pw~LTw~,cS+VHuJM0DHC"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">158</field></shadow></value><next><block type="device_pause" id="+eKk}[VPLfdqD4Iei#{%"><value name="pause"><shadow type="timePicker" id="WF%$%u0x|S@BU?}p$i@:"><field name="ms">500</field></shadow></value><next><block type="robotbit_motor_run" id="8~k`A~=%%V}?H:tDX|m]"><field name="index">robotbit.Motors.M2B</field><value name="speed"><shadow type="math_number_minmax" id="Vo%T.|Y7X;`?~|B*;K@,"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">63</field></shadow></value><next><block type="robotbit_motor_run" id=",+#.K@J4oi37Ysi=R(/6"><field name="index">robotbit.Motors.M2A</field><value name="speed"><shadow type="math_number_minmax" id="Q{2~b%q$3UTz-(G4Pxs^"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">63</field></shadow></value><next><block type="device_pause" id="qrxf`pDhq6uija3=~A.f"><value name="pause"><shadow type="timePicker" id="Zx@:7y#4E3q5ZFcRV91["><field name="ms">500</field></shadow></value><next><block type="robotbit_motor_run" id="~1V~tUwXr@bJ62{hx9GV"><field name="index">robotbit.Motors.M2B</field><value name="speed"><shadow type="math_number_minmax" id="y0i8ERQ{G_G!qAqm3]b)"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="robotbit_motor_run" id="v|TBo2~CFs|W`HLJ75IN"><field name="index">robotbit.Motors.M2A</field><value name="speed"><shadow type="math_number_minmax" id="p7FT|.Z5VA|?}2.YsNEZ"><mutation min="-255" max="255" label="Number" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="*ZTJ5+[oW[XTxLfbMtlZ" x="622" y="-23"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="OGQW{n{Hm@*cVj;G%j47"><field name="LEDS">`
+        . # # # . 
+        # # . . # 
+        # # . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="d_E_)r-ZzT)Z]324x=?+"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="Ea{$]blUW3%X$KXR^Ig1"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="robotbit_gservo2kg" id="#b8CWNEH`.9eTs4uxA)p"><field name="index">robotbit.Servos.S2</field><value name="degree"><shadow type="math_number_minmax" id="bgbZVG?7kL5N$RN(zi]("><mutation min="0" max="360" label="Number" precision="0"></mutation><field name="SLIDER">181</field></shadow></value><next><block type="robotbit_gservo2kg" id="06Koq3U=,|Yl,ho6qrs0"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="Q79l;nV8@l1(i8X8Fd=T"><mutation min="0" max="360" label="Number" precision="0"></mutation><field name="SLIDER">181</field></shadow></value><next><block type="device_pause" id="OBc4k)-0qpC?CcOU6ILU"><value name="pause"><shadow type="timePicker" id="-1$.Re#?urpg@.tTr.0k"><field name="ms">3000</field></shadow></value><next><block type="robotbit_gservo2kg" id="Fv)8t_+JR6fE=mTc5rn("><field name="index">robotbit.Servos.S2</field><value name="degree"><shadow type="math_number_minmax" id="d-4H2#GCh*SQ:Eke`N@v"><mutation min="0" max="360" label="Number" precision="0"></mutation><field name="SLIDER">0</field></shadow></value><next><block type="robotbit_gservo2kg" id="oniF-Gfk#YS@C~G4^h4S"><field name="index">robotbit.Servos.S1</field><value name="degree"><shadow type="math_number_minmax" id="uiH3YQ2:q$9JWV;)kK!s"><mutation min="0" max="360" label="Number" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
